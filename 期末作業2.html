@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>引導選單</title>
+
+    <!-- CSS樣式 -->
+    <style> 
+        * {
+            padding: 0px;
+            margin: 0px;
+        }
+
+        body {
+            background-image: url("211149msjwpuznnxljn3px.jpg"); /* 背景圖片 */
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            color: #e4e2e2;
+            overflow: hidden;
+            font-family: Arial, sans-serif;
+        }
+
+        .container {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        h1 {
+            font-size: 2em;
+            margin-bottom: 10px;
+            color: white;
+        }
+
+        h1:hover {
+            color: #aec9f1;
+        }
+
+        h2, p {
+            color: white;
+        }
+
+        .button {
+            display: inline-block;
+            width: 200px;
+            height: 50px;
+            padding: 10px;
+            background-color: #264e81;
+            color: #ffffff;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 1.2em;
+            transition: background-color 0.3s;
+            line-height: 50px;
+            text-align: center;
+            margin: 15px 0;
+        }
+
+        .button:hover {
+            text-decoration: underline;
+            color: #b1b0b0;
+            background-color: #74a8f5;
+            animation: bounce-scale 0.3s ease-in-out;
+        }
+
+        @keyframes bounce-scale {
+            0% { transform: translateY(0) scale(1); }
+            50% { transform: translateY(-10px) scale(1.1); }
+            100% { transform: translateY(0) scale(1); }
+        }
+
+        .box {
+            width: 400px;
+            background-color: rgba(0, 0, 0, 0.5); /* 黑色半透明背景 */
+            align-items: center;
+            text-align: center;
+            padding: 30px;
+            border-radius: 20px;
+            box-shadow: 5px 5px 15px rgb(248, 248, 247);
+            border: 1px solid #ddd1d1;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            margin: 20px auto;
+        }
+
+        footer {
+            text-align: center;
+            color: white;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>網頁設計成果報告</h1>
+        <h2>這學期網頁設計上課的作品</h2>
+        <p>點選以下按鈕查看作品</p>
+    </div>
+
+    <div class="box">
+        <a href="https://bnlhpy.github.io/423/%E4%BD%9C%E6%A5%AD1" class="button" target="_blank">成果展示</a>
+        <a href="https://bnlhpy.github.io/423/%E4%BD%9C%E6%A5%AD2" class="button" target="_blank">成果展示2</a>
+        <a href="https://bnlhpy.github.io/423/%E4%BD%9C%E6%A5%AD3" class="button" target="_blank">CSS3 </a>
+        <a href="https://bnlhpy.github.io/423/%E4%BD%9C%E6%A5%AD4" class="button" target="_blank">CSS3-1</a>
+        <a href="https://allen12-25.github.io/528/drom4.html" class="button" target="_blank">JavaScript1</a>
+        <a href="https://bnlhpy.github.io/423/%E4%BD%9C%E6%A5%AD5" class="button" target="_blank">JavaScript2</a>
+    </div>
+
+    <footer>
+        <p>&copy; 姓名: 邱鈺茗</p>
+        <p>&copy; 指導老師: 劉毓芬（日期: 05/29）</p>
+    </footer>
+</body>
+</html>
